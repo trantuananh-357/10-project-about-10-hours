@@ -20,15 +20,30 @@ body{
     flex-direction: column;
     background-position: center center;
     min-height: 100vh;
-    background-size: cover;
-    background-image: url("./assets/images/katarzyna-pe-lgpQSEQGBRU-unsplash.jpg")
+    background-size: cover ;
+    background-image: url("./assets/images/simon-berger-SD68VmEjzdA-unsplash.jpg");
+    
+    
+    
+}
+.wrapper{
+    text-align: center;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(241, 227, 227, 0.214);
+    height: 100vh;
+   
 }
 
 .title{
     text-transform: capitalize;
-    font-size: 5rem;
+    font-size: 10rem;
     color: var(--color-time);
     padding-bottom: 5rem;
+    
     
 
 }
@@ -45,6 +60,13 @@ body{
     line-height: 1;
     margin: 0 5rem;
     width: 10rem;
+    border: 4px dashed rgb(25, 21, 21);
+    border-radius: 2rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
 }
 .countDown-container span{
     font-weight: normal;
